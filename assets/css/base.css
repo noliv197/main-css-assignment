@@ -1,0 +1,21 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --bkg-primary: #1F2937;
+    --bkg-secondary: #3882F6;
+    --bkg-light: #E5E7EB;
+    
+    --text-primary: #F9FAF8;
+    --text-secondary: #E5E7EB;
+    --text-dark: #1F2937;
+    --font: "Roboto";
+
+    --fs-lg: 48px;
+    --fs-md: 36px;
+    --fs-rg: 24px;
+    --fs-sm: 18px;
+    --wght-normal: 400;
+    --wght-bold: 500;
+    --wght-extra-bold: 700;
+}
