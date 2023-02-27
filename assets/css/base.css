@@ -19,3 +19,7 @@
     --wght-bold: 500;
     --wght-extra-bold: 700;
 }
+
+body{
+    font-family: var(--font), sans-serif;
+}

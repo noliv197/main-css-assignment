@@ -28,14 +28,14 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 
 ## Group
 ### Members
-* [Ashram]()
+* [David]()
 * [Natália Oliveira](https://github.com/noliv197)
-* [Nicola Dimant]()
-* [Sharon Ettinger]()
-* [William Robson]()
+* [Nicola Dimant](https://github.com/Nicci12)
+* [Sharon Ettinger](https://github.com/SharonEttinger)
+* [William Robson](https://github.com/WilliamBebiano)
 
 ### Responsibilities
-#### Ashram
+#### David
 #### Natalia
 #### Nicci
 #### Sharon
