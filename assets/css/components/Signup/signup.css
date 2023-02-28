@@ -45,6 +45,9 @@
    font-size: var(--fs-sm);
    font-weight: var(--wght-extra-bold);
    cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   
 }
 
 .button-signup:hover{
