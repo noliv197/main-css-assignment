@@ -42,19 +42,19 @@
 }
 
 #games.img-wrapper {
-    background-image: url("/assets/img/games-category.jpg");
+    background-image: url("/../../../img/games-category.jpg");
 }
 
 #home.img-wrapper {
-    background-image: url("/assets/img/home-category.jpg");
+    background-image: url("../../../img/home-category.jpg");
 }
 
 #clothing.img-wrapper {
-    background-image: url("/assets/img/clothing-category.jpg");
+    background-image: url("../../../img/clothing-category.jpg");
 }
 
 #collectibles.img-wrapper {
-    background-image: url("/assets/img/collectibles-category.jpg");
+    background-image: url("../../../img/collectibles-category.jpg");
 }
 
 .category .img-wrapper::before {
