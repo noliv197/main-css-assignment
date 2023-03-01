@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url("../css/components/Header/header.css");
 @import url("../css/components/Categories/categories.css");
+<<<<<<< HEAD
 @import url("../css/components/Quote/quote.css");
+=======
+@import url("../css/components/signup/Signup.css");
+@import url("../css/components/Footer/footer.css");
+>>>>>>> b269d09 (Add Section SignUp and Footer)
 
 :root{
     --bkg-primary: #1F2937;
