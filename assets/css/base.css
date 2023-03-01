@@ -3,11 +3,16 @@
 @import url("../css/components/Header/header.css");
 @import url("../css/components/Categories/categories.css");
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import url("../css/components/Quote/quote.css");
 =======
 @import url("../css/components/signup/Signup.css");
 @import url("../css/components/Footer/footer.css");
 >>>>>>> b269d09 (Add Section SignUp and Footer)
+=======
+@import url("../css/components/signup/Signup.css");
+@import url("../css/components/Footer/footer.css");
+>>>>>>> 1179cd41f1b3d31b5981a3912179c421eb3fffeb
 
 :root{
     --bkg-primary: #1F2937;
