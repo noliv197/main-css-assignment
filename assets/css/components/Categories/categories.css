@@ -96,10 +96,6 @@
     border-radius: 8px;
 }
 
-.category img::after {
-    content: "Games"
-}
-
 @media (max-width: 992px) {
     #categories .container {
         max-width: 768px;
