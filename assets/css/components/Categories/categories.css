@@ -5,7 +5,7 @@
 }
 
 #categories .container {
-    max-width: 1200px;
+    max-width: 1080px;
     display: flex;
     justify-content: space-evenly;
     margin-left: auto;
@@ -98,4 +98,12 @@
 
 .category img::after {
     content: "Games"
+}
+
+@media (max-width: 992px) {
+    #categories .container {
+        max-width: 768px;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 }
