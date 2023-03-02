@@ -2,6 +2,7 @@
 font-family: var(--font), sans-serif;
 background-color: var(--bkg-primary);
 width: 100%;
+max-width: 100%;
 display: flex;
 justify-content: space-evenly;
 flex-direction: column;
@@ -28,7 +29,7 @@ color: var(--text-secondary);
 }
 
 .navbar ul{
-    padding-left: 9.5rem;
+padding-left: 9.5rem;
 }
 
 .navbar ul li {
@@ -90,15 +91,29 @@ border: none;
 
 /* making webpage responsive */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 969px) {
+.main-section{
+font-family: var(--font), sans-serif;
+background-color: var(--bkg-primary);
+width: 100%;
+justify-content: center;
+}
+
 .navbar {
 flex-direction: column;
+justify-content: center;
+}
+
+.navbar img{
+    padding-right: 0;
 }
 
 .navbar ul {
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-left: 0;
+
 }
 
 .navbar ul li a{
