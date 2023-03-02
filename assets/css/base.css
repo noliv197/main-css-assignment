@@ -5,6 +5,7 @@
 @import url("../css/components/Quote/quote.css");
 @import url("../css/components/Signup/signup.css");
 @import url("../css/components/Footer/footer.css");
+@import url("../css/components/Products/products.css");
 
 :root{
     --bkg-primary: #1F2937;
