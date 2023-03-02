@@ -1,15 +1,19 @@
 #categories {
     color: var(--text-dark);
+    background-color: white;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #categories .container {
-    max-width: 1200px;
+    max-width: 1080px;
     display: flex;
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
+    gap: 2rem;
 }
 
 .categories-title {
@@ -96,6 +100,8 @@
     border-radius: 8px;
 }
 
-.category img::after {
-    content: "Games"
+@media (max-width: 992px) {
+    #categories .container {
+        flex-wrap: wrap;
+    }
 }

@@ -5,17 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeekStore - Sign Up</title>
-    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="icon" href="../assets/img/saturn.png">
 
     <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/components/Form/form.css">
 </head>
 <body>
-    <header>
+    <header class="hero-section">
+        <nav class="navbar">
+            <img src="../assets/img/logo.png" alt="logo image" />
+            <ul>
+                <li>
+                    <a href="./pages/main.html">
+                        Product Page
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Sign In
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
 
     <main>
-
+        <form id="register" class="form-register">
+            <h1 class="form-title">Sign Up</h1>
+            <fieldset class="form-container" form="register">
+                <label for="email">Email</label>
+                <input 
+                    id="email" 
+                    type="email" 
+                    placeholder="youremail@gmail.com"
+                    required
+                >
+            </fieldset>
+            <fieldset class="form-container" form="register">
+                <label for="password">Password</label>
+                <input 
+                    id="password" 
+                    type="password" 
+                    placeholder=""
+                    required
+                >
+            </fieldset>
+            <fieldset class="form-container" form="register">
+                <label for="confirm">Confirm Password</label>
+                <input 
+                    id="confirm" 
+                    type="password" 
+                    placeholder=""
+                    required
+                >
+            </fieldset>
+            <button class="btn-form">Register</button>
+        </form>
     </main>
     <footer>
 
