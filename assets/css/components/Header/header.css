@@ -1,11 +1,15 @@
-.hero-section {
+section{
 font-family: var(--font), sans-serif;
 background-color: var(--bkg-primary);
+}
+
+.hero-section {
+max-width: 1080px;
 display: flex;
-flex-direction: column;
-max-width: 100%;
-padding: auto;
 justify-content: space-evenly;
+margin-left:auto;
+margin-right:auto;
+flex-direction: column;
 }
 
 .navbar {
@@ -14,7 +18,7 @@ flex-direction: row;
 align-items: center;
 justify-content: space-between;
 background-color: var(--bkg-primary);
-margin: 0 11rem 0 11rem
+margin: 0 2rem 0 2rem;
 }
 
 .navbar img {
