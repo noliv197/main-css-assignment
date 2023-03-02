@@ -1,27 +1,23 @@
-section{
+.hero-section {
 font-family: var(--font), sans-serif;
 background-color: var(--bkg-primary);
-}
-
-.hero-section {
-max-width: 1080px;
+width: 100%;
 display: flex;
 justify-content: space-evenly;
-margin-left:auto;
-margin-right:auto;
 flex-direction: column;
 }
 
 .navbar {
+width: 100%;
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 background-color: var(--bkg-primary);
-margin: 0 2rem 0 2rem;
 }
 
 .navbar img {
+padding-right: 5rem;
 width: 130px;
 height: 130px;
 }
@@ -31,9 +27,13 @@ text-decoration: none;
 color: var(--text-secondary);
 }
 
+.navbar ul{
+    padding-left: 9.5rem;
+}
+
 .navbar ul li {
 display: inline-block;
-padding: 0 10px 0px 10px;
+padding: 0 5px 0px 5px;
 }
 
 .main-section {
