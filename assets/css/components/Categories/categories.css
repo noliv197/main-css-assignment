@@ -10,6 +10,7 @@
 #categories .container {
     max-width: 1080px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
@@ -100,8 +101,11 @@
     border-radius: 8px;
 }
 
-@media (max-width: 992px) {
+/* In this case I don't believe the media query is required
+    can't this property just be assigned normaly?
+*/
+/* @media (max-width: 992px) {
     #categories .container {
         flex-wrap: wrap;
     }
-}
+} */

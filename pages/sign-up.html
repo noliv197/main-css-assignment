@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeekStore - Sign Up</title>
-    <link rel="icon" href="../assets/img/saturn.png">
+    <link rel="icon" href="../assets/icons/saturn.png">
 
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/components/Form/form.css">
 </head>
+
 <body>
     <header class="hero-section">
         <nav class="navbar">
-            <img src="../assets/img/logo.png" alt="logo image" />
+            <img src="../assets/img/logo.png" alt="Shazam GeekStore Logo">
             <ul>
                 <li>
-                    <a href="../pages/main.html">
-                        Product Page
+                    <a href="../index.html">
+                        Home
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        Sign In
+                    <a href="./products.html">
+                        Products
                     </a>
                 </li>
                 <li>
@@ -32,9 +33,7 @@
                 </li>
             </ul>
         </nav>
-
     </header>
-
     <main>
         <form id="register" class="form-register">
             <h1 class="form-title">Sign Up</h1>
@@ -55,6 +54,7 @@
                     placeholder=""
                     required
                 >
+                <button class="btn-password" type="button"></button>
             </fieldset>
             <fieldset class="form-container" form="register">
                 <label for="confirm">Confirm Password</label>
@@ -64,12 +64,14 @@
                     placeholder=""
                     required
                 >
+                <button class="btn-password" type="button"></button>
             </fieldset>
-            <button class="btn-form">Register</button>
+            <button class="btn-form" type="submit">Register</button>
+            <p>Already has an account? <a href="#">Click here to login</a></p>
         </form>
     </main>
     <footer>
-
+        <p> Shazam GeekStore Copyright ©</p>
     </footer>
 </body>
 </html>
