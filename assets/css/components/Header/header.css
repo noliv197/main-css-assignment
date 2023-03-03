@@ -1,5 +1,4 @@
 .hero-section {
-    /* font-family: var(--font), sans-serif; */
     background-color: var(--bkg-primary);
     width: 100%;
     max-width: 100%;
@@ -89,6 +88,7 @@
 
 .title-section a {
     text-decoration: none;
+    text-align: center;
     width: 10%;
     background-color: var(--bkg-secondary);
     padding: 10px 30px 10px 30px;
@@ -112,7 +112,6 @@
 /* making webpage responsive */
 @media only screen and (max-width: 969px) {
     .main-section{
-        /* font-family: var(--font), sans-serif; */
         background-color: var(--bkg-primary);
         width: 100%;
         justify-content: center;

@@ -100,12 +100,3 @@
     border: 3px solid var(--bkg-secondary);
     border-radius: 8px;
 }
-
-/* In this case I don't believe the media query is required
-    can't this property just be assigned normaly?
-*/
-/* @media (max-width: 992px) {
-    #categories .container {
-        flex-wrap: wrap;
-    }
-} */

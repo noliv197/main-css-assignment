@@ -6,9 +6,9 @@
     color: var(--text-primary);
     display: flex;
     flex-direction: column;
-    margin: 5rem auto;
-    min-height: 450px;
-    width: 75%;
+    margin: 5rem auto 0 auto;
+    min-height: 475px;
+    width: 50%;
     padding: 1.5rem;
 }
 
@@ -37,7 +37,7 @@
     border: none;
     box-sizing: border-box;
     background-color: var(--bkg-light);
-    padding: .75rem;
+    padding: .75rem 45px .75rem .75rem;
 }
 
 .btn-password{
@@ -77,7 +77,10 @@
     color: var(--text-primary);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
+    .form-register{
+        width: 90%;
+    }
     .btn-form{
         font-size: var(--fs-sm);
     }
