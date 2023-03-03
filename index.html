@@ -1,25 +1,27 @@
 <!DOCTYPE html> 
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeekStore - HomePage</title>
-    <link rel="icon" href="./assets/img/saturn.png">
+    <link rel="icon" href="./assets/icons/saturn.png">
 
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/components/Categories/categories.css">
+    <link rel="stylesheet" href="./assets/css/components/Quote/quote.css">
+    <link rel="stylesheet" href="./assets/css/components/Review/review.css">
+    <link rel="stylesheet" href="./assets/css/components/Signup/signup.css">
 </head>
 
 <body>
-<section>
-    <header class="hero-section">
+    <header class="hero-section" id="top">
         <nav class="navbar">
-            <img src="./assets/img/logo.png" alt="logo image" />
+            <img src="./assets/img/logo.png" alt="Shazam GeekStore Logo">
             <ul>
                 <li>
-                    <a href="./pages/main.html">
-                        Product Page
+                    <a href="./pages/products.html">
+                        Products
                     </a>
                 </li>
                 <li>
@@ -36,74 +38,94 @@
         </nav>
         <div class="main-section">
             <div class="title-section">
-                <h1> Shazam <br>
-                    GeekStore</h1>
-                <p>Indulge Your Inner Geek with Our Wide Range of Products -Your One-Stop Shop for All Things Geeky!
+                <h1> Shazam <br>GeekStore</h1>
+                <p>
+                    Indulge Your Inner Geek with Our Wide Range of Products 
+                    -Your One-Stop Shop for All Things Geeky!
                 </p>
                 <a href="./pages/sign-up.html">Sign Up</a>
             </div>
             <div class="img-container">
-                <img src="./assets/img/placeholder-1.jpg" alt="placeholder image" />
+                <img src="./assets/img/placeholder-1.jpg" alt="store placeholder">
             </div>
+        </div>
     </header>
-</section>
-
     <main>
         <section id="categories">
             <h1 class="categories-title">Categories</h1>
-            <div class="container">
-                <div class="category">
-                    <a href="./products#games">
-                        <div id="games" class="img-wrapper">
-                            <h2>Games</h2>
-                        </div>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="category">
-                    <a href="./products#home">
-                        <div id="home" class="img-wrapper">
-                            <h2>Home</h2>
-                        </div>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="category">
-                    <a href="./products#clothing">
-                        <div id="clothing" class="img-wrapper">
-                            <h2>Clothing</h2>
-                        </div>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="category">
-                    <a href="./products#collectibles">
-                        <div id="collectibles" class="img-wrapper">
-                            <h2>Collectibles</h2>
-                        </div>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-            </div>
+            <ul class="container">
+                <li>
+                    <div class="category">
+                        <a href="./pages/products.html#games">
+                            <div id="games" class="img-wrapper">
+                                <h2>Games</h2>
+                            </div>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="category">
+                        <a href="./pages/products.html#home">
+                            <div id="home" class="img-wrapper">
+                                <h2>Home</h2>
+                            </div>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="category">
+                        <a href="./pages/products.html#clothing">
+                            <div id="clothing" class="img-wrapper">
+                                <h2>Clothing</h2>
+                            </div>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="category">
+                        <a href="./pages/products.html#collectibles">
+                            <div id="collectibles" class="img-wrapper">
+                                <h2>Collectibles</h2>
+                            </div>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </section>
 
         <section id="quote">
+            <!-- The div is not needed use the section as main box -->
             <div class="geeks">
                 <h4>"Geeks are people who love something so much that all the details matter."</h4>
                 <p>-Marissa Meyer</p>
             </div>
         </section>
-        <section id="reviews">
-            <div class="reviews-title">
-                <h1>Reviews</h1>
-            </div> 
-            <div class="review-box-container"> 
 
+        <section id="reviews">
+            <h1 class="reviews-title">Reviews</h1>
+            <!-- try to reduce the number of divs -->
+            <div class="review-box-container"> 
                 <div class="review-box">
                     <div class="top-box">
                         <div class="profile">
                             <div class="profile-image">
-                                <img src="http://github.com/WilliamBebiano.png"> 
+                                <img src="http://github.com/WilliamBebiano.png" alt="William Profile Picture"> 
                             </div>
                             <div class="profile-name">
                                 <h4>William Bebiano</h4>
@@ -115,7 +137,11 @@
                         </a>
                     </div>
                     <div class="comment">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu orci dui. Mauris aliquam, nisi quis sodales consectetur, libero velit consequat tellus, vitae ultrices felis velit vitae neque. Sed sit amet nunc nec risus sagittis rutrum.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu orci dui. 
+                            Mauris aliquam, nisi quis sodales consectetur, libero velit consequat tellus, 
+                            vitae ultrices felis velit vitae neque. Sed sit amet nunc nec risus sagittis rutrum.
+                        </p>
                     </div> 
                 </div>
 
@@ -140,26 +166,34 @@
                 </div>
             </div>
             <div class="button-reviews">
+                <!-- This should be a button -->
                 <a href="#">See more</a>
             </div>  
         </section>
 
-         <section>
+        <section>
+            <!-- Do not need the first div use the section as the main box -->
             <div id="signup-section">
                 <div class="container-section">
                     <div class="info-section">
                         <p>May the force be with you! </p>
                         <span>Join the movement and unlock the power of our product today!</span>
                     </div>
-                    <a class="button-signup" href="../main-css-assignment/pages/sign-up.html">Sign Up</a>
+                    <a 
+                        class="button-signup" 
+                        href="./pages/sign-up.html"
+                    >
+                        Sign Up
+                    </a>
                 </div>
             </div>
         </section>
+        <a href="#top" title="Back to top" class="back-top">
+            <div class="icon-container"></div>
+        </a>
     </main>
-    
     <footer>
         <p> Shazam GeekStore Copyright ©</p>
     </footer>
 </body>
-
 </html>
