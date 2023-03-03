@@ -17,7 +17,7 @@
     background-color: var(--bkg-secondary);
     padding: auto;
     border-radius: 5px;
- }
+}
 
 .info-section {
     margin: 40px;
@@ -28,11 +28,12 @@
    font-size: var(--fs-rg);
    font-weight: var(--wght-bold);
 }
+
 .info-section span {
     color: var(--text-secondary);
     font-size: var(--fs-sm);
     font-weight: var(--wght-normal);
- }
+}
 
 .button-signup{
    padding: 10px 20px;
@@ -47,23 +48,19 @@
    cursor: pointer;
    text-decoration: none;
    text-align: center;
-   
 }
 
 .button-signup:hover{
     background-color: var(--bkg-primary);
-
 }
 
 .button-signup:active{
     background-color: var(--bkg-light);
     color: var(--text-dark);
-
 }
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-
     #signup-section .container-section {
         max-width: 1200px;
         display: flex;
@@ -72,22 +69,20 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        
     }
 
     .button-signup{
         margin-bottom: 15px;
-     }
-     
-
+    } 
 }
 
-/* Tablet */
+/* If you are not using it just delete it
+Tablet
 @media only screen and (min-width: 601px) and (max-width: 960px) {
 
 }
 
-/* Desktop*/
+ Desktop
 @media only screen and (min-width: 961px) {
 
-}
+} */

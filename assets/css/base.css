@@ -1,11 +1,7 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url("../css/components/Header/header.css");
-@import url("../css/components/Categories/categories.css");
-@import url("../css/components/Quote/quote.css");
-@import url("../css/components/Signup/signup.css");
-@import url("../css/components/Footer/footer.css");
-@import url("../css/components/Products/products.css");
+@import url("./components/Header/header.css");
+@import url("./components/Footer/footer.css");
 
 :root{
     --bkg-primary: #1F2937;
@@ -21,6 +17,7 @@
     --fs-md: 36px;
     --fs-rg: 24px;
     --fs-sm: 18px;
+    --fs-xs: 14px;
     --wght-normal: 400;
     --wght-bold: 500;
     --wght-extra-bold: 700;
@@ -28,4 +25,17 @@
 
 body{
     font-family: var(--font), sans-serif;
+}
+
+.back-top{
+    text-align: -webkit-right;
+}
+
+.icon-container{
+    background-image: url("../icons/icon-upArrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0  20px 10px 0;
+    height: 40px;
+    width: 40px;
 }
