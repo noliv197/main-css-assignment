@@ -28,7 +28,7 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 
 ## Group
 ### Members
-* [David]()
+* [David Ghizzi](https://github.com/daveiho)
 * [Natália Oliveira](https://github.com/noliv197)
 * [Nicola Dimant](https://github.com/Nicci12)
 * [Sharon Ettinger](https://github.com/SharonEttinger)
@@ -36,7 +36,16 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 
 ### Responsibilities
 #### David
+  * categories section
+  * products section
 #### Natalia
+  * project base
+  * sign up page
 #### Nicci
+  * header section
+  * navigation
 #### Sharon
+  * quote section
+  * review section
 #### William
+  * footer section
