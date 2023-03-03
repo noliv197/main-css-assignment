@@ -1,35 +1,22 @@
+.reviews-title {
+    font-size: var(--fs-md);
+    font-weight: var(--wght-extra-bold);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
 .review-box-container {
-    /* font: var(--font); */
-    /* background-color: #ffffff; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;   
 }
-
-/* .reviews-title {
-    font: var(--font);
-    color: var(--text-dark);
-    background-color: #ffffff;
-    font-size: var(--fs-sm);
-    font-weight: var(--wght-extra-bold);
-    text-align: left;
-    margin: auto;
-    padding: 50px 0px 0px 75px;
-} */
-/* I changed your style to match the categories title */
-.reviews-title {
-    font-size: var(--fs-md);
-    font-weight: var(--wght-extra-bold);
-    text-align: center;
-    margin-top: 3rem;
-}
     
 .review-box {
     width: 400px;
-    /* background-color: #ffffff; */
-    border: 1px solid var(--bkg-primary);
+    border: 1px solid var(--bkg-secondary);
     box-shadow: 2px 2px var(--bkg-secondary);
     border-radius: 10px;
     padding: 20px;
@@ -67,10 +54,7 @@
     align-items: center;
 }
     
-.profile-name {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .profile-name h4 {
     color: var(--text-dark);
@@ -80,7 +64,7 @@
 
 .profile-name span {
     color: var(--text-dark);
-    font-size: 0.8rem;
+    font-size: var(--fs-xs);
 }
 
 .top-box {
@@ -90,20 +74,18 @@
 }
 
 .comment {
-    font-size: 0.9rem;
+    font-size: var(--fs-xs);
     color: var(--text-dark);
     padding-top: 10px;
 }
 
 .button-reviews {
-    /* font: var(--font); */
-    /* background-color: #ffffff; */
     padding: 15px 15px 20px 15px;
     margin: auto;
     text-align: center;
 }
 
-.button-reviews a {
+.button-rev {
     text-decoration: none;
     font-size: var(--fs-sm);
     cursor: pointer;
@@ -114,4 +96,9 @@
     background-color: var(--bkg-secondary);
     border: none;
     padding: 10px;
+}
+
+.review-box:hover {
+    transform: translateY(-10px);
+    transition: all ease;
 }
