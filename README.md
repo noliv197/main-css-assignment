@@ -24,7 +24,7 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
     * Take it one section at a time. The website you’re creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
 
 ### Template
-![](./assets/img/design.png)
+![](./assets/img/design/design.png)
 
 ## Group
 ### Members
@@ -37,15 +37,35 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 ### Responsibilities
 #### David
   * categories section
+  
+  <img src="./assets/img/design/categories.png" alt="categories section layout" width="500">
+  
   * products section
+  
+  <img src="./assets/img/design/products.png" alt="products section layout" width="500">
+
 #### Natalia
   * project base
   * sign up page
+
+<img src="./assets/img/design/signUp.png" alt="sign up section layout" width="500">
+
 #### Nicci
   * header section
   * navigation
+
+<img src="./assets/img/design/header1.png" alt="home page header layout" width="500">
+<img src="./assets/img/design/header2.png" alt="products page header layout" width="500">
+
 #### Sharon
   * quote section
   * review section
+
+<img src="./assets/img/design/reviews.png" alt="quote and review sections layout" width="500">
+
 #### William
   * footer section
+
+<img src="./assets/img/design/footer.png" alt="footer section layout" width="500">
+
+* content
