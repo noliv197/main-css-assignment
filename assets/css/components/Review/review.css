@@ -1,8 +1,10 @@
+#reviews{
+    padding-bottom: 3rem;
+}
 .reviews-title {
     font-size: var(--fs-md);
     font-weight: var(--wght-extra-bold);
     text-align: center;
-    margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
 

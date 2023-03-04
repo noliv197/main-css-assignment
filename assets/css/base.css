@@ -27,11 +27,14 @@ body{
     font-family: var(--font), sans-serif;
 }
 main{
-    min-height: 100vh;
+    min-height: 72vh;
     box-sizing: border-box;
+    position: relative;
 }
 .back-top{
-    text-align: -webkit-right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .icon-container{
