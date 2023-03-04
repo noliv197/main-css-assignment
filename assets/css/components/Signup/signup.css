@@ -1,21 +1,10 @@
 #signup-section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
-#signup-section .container-section {
-    max-width: 1200px;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container-section{
+    max-width: 1200px;
+    margin: 5rem auto;
     background-color: var(--bkg-secondary);
-    padding: auto;
     border-radius: 5px;
 }
 
@@ -36,18 +25,17 @@
 }
 
 .button-signup{
-   padding: 10px 20px;
-   width: 9rem;
-   background-color: var(--bkg-secondary);
-   border: 2px solid;
-   border-radius: 5px;
-   border-color: var(--bkg-light);
-   color: var(--text-primary);
-   font-size: var(--fs-sm);
-   font-weight: var(--wght-extra-bold);
-   cursor: pointer;
-   text-decoration: none;
-   text-align: center;
+    background-color: var(--bkg-secondary);
+    border: 2px solid var(--bkg-light);
+    border-radius: 5px;
+    color: var(--text-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--wght-extra-bold);
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 9rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button-signup:hover{
@@ -61,28 +49,11 @@
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    #signup-section .container-section {
-        max-width: 1200px;
-        display: flex;
+    #signup-section {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .button-signup{
         margin-bottom: 15px;
     } 
 }
-
-/* If you are not using it just delete it
-Tablet
-@media only screen and (min-width: 601px) and (max-width: 960px) {
-
-}
-
- Desktop
-@media only screen and (min-width: 961px) {
-
-} */

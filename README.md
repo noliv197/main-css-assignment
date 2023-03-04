@@ -52,7 +52,7 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 
 #### Nicci
   * header section
-  * navigation
+  * banner section
 
 <img src="./assets/img/design/header1.png" alt="home page header layout" width="500">
 <img src="./assets/img/design/header2.png" alt="products page header layout" width="500">

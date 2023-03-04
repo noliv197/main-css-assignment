@@ -8,45 +8,32 @@
     <link rel="icon" href="../assets/icons/saturn.png">
 
     <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/components/Banner/banner.css">
     <link rel="stylesheet" href="../assets/css/components/Products/products.css">
     <link rel="stylesheet" href="../assets/css/components/Review/review.css">
 </head>
 
 <body>
-    <header class="hero-section" id="top">
-        <nav class="navbar">
+    <header class="hero-section" id="header">
+        <picture class="logo-container">
             <img src="../assets/img/logo.png" alt="Shazam GeekStore Logo">
-            <ul>
-                <li>
-                    <a href="../index.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                       <div class="icon-1"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="icon-2"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="icon-3"></div>
-                    </a>
-                </li>
-            </ul>
+        </picture>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="#">Products</a>
+            <a href="./sign-up.html">Sign Up</a>
+            <div class="icons-container">
+                <a href="#"><div class="icon-1"></div></a>
+                <a href="#"><div class="icon-2"></div></a>
+                <a href="#"><div class="icon-3"></div></a>
+            </div>
         </nav>
-        <img  class="promotion-banner" src="../assets/img/promotion.png" alt="Promotion Banner">
     </header>
     <main>
+        <section>
+            <img  class="banner-promotion" src="../assets/img/promotion.png" alt="Promotion Banner">
+        </section>
+
         <section id="products">
             <h1>Games & Console</h1>
             <ul id="games" class="container">
@@ -397,11 +384,11 @@
             </div>   
         </section>
 
-        <a href="#top" title="Back to top" class="back-top">
-            <div class="icon-container"></div>
-        </a>
     </main>
     <footer>
+        <a href="#header" title="Back to top" class="back-top">
+            <div class="icon-container"></div>
+        </a>
         <p> Shazam GeekStore Copyright ©</p>
     </footer>
 </body>

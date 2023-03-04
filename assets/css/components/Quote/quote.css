@@ -6,16 +6,18 @@
     box-sizing: border-box;
 }
 
+blockquote{
+    text-align: end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 blockquote p {
     text-align: center;
     font-style: italic;
     font-size: var(--fs-md);
     font-weight: var(--wght-normal);
     padding: 2.5rem;
-}
-
-blockquote{
-    text-align: end;
 }
 
 blockquote span {

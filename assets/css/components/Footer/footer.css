@@ -8,4 +8,20 @@ footer {
     color: var(--text-primary);
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+
+.back-top{
+    position: absolute;
+    right: 0;
+    bottom: 56px;
+}
+
+.icon-container{
+    background-image: url("../../../icons/icon-upArrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0  20px 10px 0;
+    height: 40px;
+    width: 40px;
 }
