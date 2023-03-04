@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
-    
 }
+
 #products {
     padding: 4rem 0 4rem 0;
     margin-left: auto;
@@ -10,8 +10,9 @@ body {
 
 #products h1{
     font-size: var(--fs-lg);
-    margin-bottom: 10px;
- 
+    font-weight: var(--wght-extra-bold);
+    margin-left: 3rem;
+    margin-bottom: 3rem;
 }
 
 #products .container {
@@ -20,13 +21,6 @@ body {
     margin: 0 0 3rem 3rem;
     overflow: auto;
 }
-.promotion-banner{
-    width: 70vw;
-    height: 28vh;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-}
 
 .product-card {
     border: 1px solid;
@@ -34,8 +28,9 @@ body {
 }
 
 .card-img {
-    height: 30vh;
+    height: 250px;
     width: 350px;
+    object-fit: contain;
     border-radius: 6px;
 }
 
