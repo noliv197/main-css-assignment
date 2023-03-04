@@ -47,19 +47,19 @@
 }
 
 #games.img-wrapper {
-    background-image: url("../../../img/games-category.jpg");
+    background-image: url("../../../img/games.jpeg");
 }
 
 #home.img-wrapper {
-    background-image: url("../../../img/home-category.jpg");
+    background-image: url("../../../img/geekhome.jpeg");
 }
 
 #clothing.img-wrapper {
-    background-image: url("../../../img/clothing-category.jpg");
+    background-image: url("../../../img/geekcloth.jpeg");
 }
 
 #collectibles.img-wrapper {
-    background-image: url("../../../img/collectibles-category.jpg");
+    background-image: url("../../../img/geekcolec.jpg");
 }
 
 .category .img-wrapper::before {
