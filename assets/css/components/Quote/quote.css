@@ -2,30 +2,34 @@
     background-color: var(--bkg-light);
     width: 100%;
     color: var(--text-dark);
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
-#quote h4 {
+blockquote p {
     text-align: center;
     font-style: italic;
     font-size: var(--fs-md);
     font-weight: var(--wght-normal);
-    padding: 75px 200px 15px 200px;
+    padding: 2.5rem;
 }
 
-#quote p {
-    text-align: right;
+blockquote{
+    text-align: end;
+}
+
+blockquote span {
     font-size: var(--fs-sm);
     font-weight: var(--wght-extra-bold);
-    padding: 15px 200px 75px 200px;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 992px) {
-    #quote h4 {
+    blockquote p {
         font-size: var(--fs-rg);
-        padding: 75px 100px 15px 100px;
+        padding: 2.5rem 0;
     }
-    #quote p {
+    blockquote span {
         font-size: var(--fs-xs);
-        padding: 5px 100px 75px 100px;
     }
 }
