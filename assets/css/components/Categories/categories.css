@@ -75,7 +75,7 @@
     transition: opacity 0.4s;
 }
 
-.category .img-wrapper h2 {
+.category .img-wrapper h3 {
     color: var(--text-primary);
     font-size: var(--fs-rg);
     z-index: 2;
@@ -87,7 +87,7 @@
     opacity: 0.9;
 }
 
-.category .img-wrapper:hover h2 {
+.category .img-wrapper:hover h3 {
     opacity: 1;
 }
 
