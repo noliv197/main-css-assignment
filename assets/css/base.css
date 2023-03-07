@@ -4,29 +4,31 @@
 @import url("./components/Footer/footer.css");
 
 :root{
-    --bkg-primary: #1F2937;
-    --bkg-secondary: #3882F6;
-    --bkg-light: #E5E7EB;
+    --background-primary: #1F2937;
+    --background-secondary: #3882F6;
+    --background-light: #E5E7EB;
+    --background-white: #ffffff;
     
     --text-primary: #F9FAF8;
     --text-secondary: #E5E7EB;
     --text-dark: #1F2937;
     --font: "Roboto";
 
-    --fs-lg: 48px;
-    --fs-md: 36px;
-    --fs-rg: 24px;
-    --fs-sm: 18px;
-    --fs-xs: 14px;
-    --wght-normal: 400;
-    --wght-bold: 500;
-    --wght-extra-bold: 700;
+    --size-lg: 48px;
+    --size-md: 36px;
+    --size-rg: 24px;
+    --size-sm: 18px;
+    --size-xs: 14px;
+    --weight-normal: 400;
+    --weight-bold: 500;
+    --weight-extra-bold: 700;
 }
 
 body{
     font-family: var(--font), sans-serif;
 }
+
 main{
-    min-height: 72vh;
+    min-height: calc(100vh - 675px);
     box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .hero-section {
-    background-color: var(--bkg-primary);
+    background-color: var(--background-primary);
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -23,7 +23,7 @@
 
 .navbar a {
     text-decoration: none;
-    font-size: var(--fs-sm);
+    font-size: var(--size-rg);
     color: var(--text-secondary);
     padding-left: 1rem;
 }
@@ -32,19 +32,22 @@
     display: flex;
 }
 
-.navbar .icon-1, .icon-2, .icon-3{
-    background-image: url(../../../icons/icon-cart.jpg);
-    width: 25px;
-    height: 25px;
+.navbar .icon{
+    width: 35px;
+    height: 35px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.navbar .icon-2{
+.navbar .icon-cart{
+    background-image: url(../../../icons/icon-cart.jpg);
+}
+
+.navbar .icon-heart{
     background-image: url(../../../icons/icon-heart.jpg);
 }
 
-.navbar .icon-3{
+.navbar .icon-profile{
     background-image: url(../../../icons/icon-profile.jpg);
 }
 
