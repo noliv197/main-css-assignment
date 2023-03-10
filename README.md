@@ -28,11 +28,10 @@ Check out the project [here](https://noliv197.github.io/main-css-assignment/)
 
 ## Group
 ### Members
-* [David Ghizzi](https://github.com/daveiho)
-* [Natália Oliveira](https://github.com/noliv197)
-* [Nicola Dimant](https://github.com/Nicci12)
-* [Sharon Ettinger](https://github.com/SharonEttinger)
-* [William Robson](https://github.com/WilliamBebiano)
+|David Ghizzi|Natalia Oliveira|Nicola Dimant|Sharon Ettinger|William Bebiano|
+|------------|----------------|-------------|---------------|--------------|
+|<img src="https://github.com/daveiho.png" alt="David Ghizzi" width="100">|<img src="https://github.com/noliv197.png" alt="Natalia Oliveira" width="100">|<img src="https://github.com/Nicci12.png" alt="Nicola Dimant" width="100">|<img src="https://github.com/SharonEttinger.png" alt="Sharon Ettinger" width="100">|<img src="https://github.com/WilliamBebiano.png" alt="William Bebiano" width="100">|
+|[@daveiho](https://github.com/daveiho)|[@noliv197](https://github.com/noliv197)|[@Nicci12](https://github.com/Nicci12)|[@SharonEttinger](https://github.com/SharonEttinger)|[@WilliamBebiano](https://github.com/WilliamBebiano)|
 
 ### Responsibilities
 #### David
