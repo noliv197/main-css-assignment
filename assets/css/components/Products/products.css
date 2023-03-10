@@ -117,7 +117,7 @@ body {
 }
 
 @media only screen and (max-width: 426px){
-    #products h1{
+    #products h2{
         font-size: var(--size-md);
         margin-left: 1rem;
     }
