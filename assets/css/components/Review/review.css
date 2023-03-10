@@ -40,15 +40,9 @@
     object-position: center;
 }
 
-.four-stars {
-    display: flex;
-    align-items: center ;
-    background-image: url(../../../icons/four-stars.png);
+.icon-stars {
     width: 75px;
     height: 75px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 20px;
 }
 
 .profile {
@@ -56,13 +50,18 @@
     align-items: center;
 }
 
-.profile-name h4 {
+.profile-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name span:first-child {
     color: var(--text-dark);
     font-size: var(--size-sm);
     letter-spacing: 0.5px;
 }
 
-.profile-name span {
+.profile-name span:last-child {
     color: var(--text-dark);
     font-size: var(--size-xs);
 }
