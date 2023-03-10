@@ -1,3 +1,6 @@
+.form-section{
+    padding: 2rem;
+}
 .form-register{
     align-items: start;
     background-color: var(--background-primary);
@@ -6,9 +9,10 @@
     color: var(--text-primary);
     display: flex;
     flex-direction: column;
-    margin: 5rem auto;
+    margin: 0 auto;
     min-height: 475px;
     width: 50%;
+    height: 100%;
     padding: 1.5rem;
 }
 
@@ -43,9 +47,6 @@
 .btn-password{
     background-color: var(--background-light);
     border: none;
-    background-image: url("../../../icons/icon-view.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     cursor: pointer;
     height: 30px;
     width: 30px;
@@ -78,6 +79,9 @@
 }
 
 @media screen and (max-width: 800px) {
+    .form-section{
+        padding: 2rem 0;
+    }
     .form-register{
         width: 90%;
     }

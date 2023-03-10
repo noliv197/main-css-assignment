@@ -26,9 +26,10 @@
 
 body{
     font-family: var(--font), sans-serif;
+    min-height: 100vh;
 }
 
 main{
-    min-height: calc(100vh - 675px);
     box-sizing: border-box;
+    min-height: calc(100vh - 231px);
 }
